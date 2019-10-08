@@ -1,0 +1,267 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600');
+
+body {
+  font-family: Open Sans;
+  font-size: 1em;
+}
+
+nav {
+  background: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 30px;
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: 500;
+}
+
+.top-left {
+  float: left;
+  margin-left: 30px;
+}
+
+.top-right {
+  float: right;
+}
+
+.top-links {
+  display: inline-block;
+  padding: 0;
+  margin: 0 30px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 15px;
+  text-align: center;
+}
+
+.clearfix {
+  clear: both;
+}
+
+#header {
+  background: rgb(34, 89, 122);
+  background-size: cover;
+  color: white;
+}
+
+#header a {
+  color: white;
+  text-decoration: none;
+}
+
+
+.intro-logo img {
+  height: 50px;
+}
+
+.intro-logo {
+  margin-left: 20px;
+}
+
+.intro-search {
+  padding-top: 20px;
+  display: flex;
+}
+
+.finder {
+  padding-right: 20px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.search-form {
+  height: 2em;
+  padding: 0.5em;
+  margin-right: 2em;
+  display: flex;
+}
+
+#searchbar {
+  width: 100%;
+  height: 100%;
+  background: #20516d;
+  border: 1px solid #436b84;
+  padding-left: 10px;
+  margin: auto;
+}
+
+#search-button {
+  width: 5%;
+  height: 114%;
+  background: #20516d;
+  border: 1px solid #436b84;
+  border-left: none;
+  margin: auto;
+}
+
+
+.register {
+  margin: auto 30px;
+  display: flex;
+}
+
+#bear {
+  height: 50px;
+  display: flex;
+  width: auto;
+  margin-top: -0.5em;
+  margin-left: 0.5em;
+}
+
+.container {
+  margin: 0 auto;
+  width: 40%;
+  display: flex;
+}
+
+.container-noflex {
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+}
+
+.container a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.intro-text {
+  height: 20em;
+  background: url("images/city-scape.svg") no-repeat;
+  background-size: cover;
+}
+
+.amazing-text {
+  width: 50%;
+  padding: 7% 0 0 0;
+  margin: auto 0;
+}
+
+.button-signup {
+  display: block;
+  background: rgb(240, 146, 51);
+  text-align: center;
+  text-decoration: none;
+  width: 200px;
+  padding: 10px 5px;
+  margin-top: 1em;
+  margin-bottom: 30px;
+  border-radius: 20px;
+}
+
+section {
+  display: flex;
+  height: 25em;
+  padding: 3% 0;
+}
+
+.orgs-img {
+  width: 90%;
+  margin: auto;
+}
+
+.orgs-text {
+  width: 100%;
+  float: right;
+  margin-left: 1.5em;
+  margin: auto;
+  margin-left: 2em;
+}
+
+#npm-orgs {
+  background: rgb(39, 53, 71);
+  color: white;
+}
+
+#npm-orgs ul {
+  font-size: 0.9em;
+  line-height: 2em;
+}
+
+.button-signup-orgs {
+  display: block;
+  background: rgb(203, 56, 55);
+  text-align: center;
+  text-decoration: none;
+  width: 200px;
+  padding: 10px 5px;
+  margin-top: 1em;
+  margin-bottom: 5px;
+  margin-left: 1em;
+  border-radius: 20px;
+}
+
+.letters {
+  margin-left: 1em;
+}
+
+#faq {
+  background: url("images/forklift.svg");
+  background-size: cover;
+  color: white;
+}
+
+.faq-text {
+  width: 40%;
+}
+
+.install-button {
+  display: block;
+  background: rgb(49, 68, 88);
+  text-align: center;
+  text-decoration: none;
+  width: 200px;
+  padding: 10px 5px;
+  margin-top: 1em;
+  margin-bottom: 5px;
+  border-radius: 20px;
+}
+
+.container-noflex h2 {
+  color: rgb(83, 88, 98);
+  margin-bottom: 0.5em;
+}
+
+.container-noflex p {
+  color: rgb(135, 145, 156);
+  font-size: 0.9em;
+}
+
+.npm-info {
+  display: flex;
+  margin: 5% auto;
+}
+
+.info-block {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.info-block p {
+  width: 70%;
+  color: rgb(135, 145, 156);
+  margin: 5px auto;
+}
+
+.info-block a {
+  color: rgb(208, 74, 73);
+}
+
+
+
+
+
+
