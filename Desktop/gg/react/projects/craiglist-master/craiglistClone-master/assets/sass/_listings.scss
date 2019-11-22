@@ -1,0 +1,123 @@
+.listings-page {
+    background: white;
+    color: black;
+    #filter {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        padding: 50px 0;
+    }
+    #list-view {
+        background: #F7F8FA;
+        padding: 20px 0;
+        .white-box {
+            background: white;
+            padding: 20px;
+        }
+        .change-view {
+            display: flex;
+            flex-direction: row;
+        }
+        .all-items {
+            padding: 20px 0;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 20px 20px;
+            .item {
+                box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.37);
+                border-radius: 5px;
+                overflow: hidden;
+                .image {
+                    background: url("https://i.pinimg.com/originals/96/0b/bd/960bbd9cec48d31ac3e75bdb40ba5a0a.jpg");
+                    height: 250px;
+                    background-size: cover;
+                    background-position: center center;
+                    background-repeat: no-repeat;
+                    position: relative;
+                    padding: 10px;
+                    .price {
+                        background: white;
+                        position: absolute;
+                        padding: 5px 10px;
+                        color: green;
+                        border-radius: 3px;
+                    }
+                }
+                .details {
+                    padding: 10px;
+                    position: relative;
+                    .far {
+                        position: absolute;
+                        right: 10px;
+                        font-size: 1.4rem;
+                        top: 20px;
+                        &:hover {
+                            color: gold;
+                            cursor: pointer;
+                        }
+                    }
+                    h5  {
+                        font-size: .9rem;
+                        color: #27292d;
+                        line-height: 1.5;
+                        margin-bottom: 5spx;
+                        text-transform: capitalize;
+                    }
+                    h6 {
+                        font-size: .7rem;
+                        color: #565d68;
+                        text-transform: capitalize;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.make-model-comp {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    label {
+        font-size: .8rem;
+        font-weight: 500;
+        margin-bottom: .8rem;
+    }
+    select {
+        background: white;
+        border-radius: 5px;
+        padding: 3px;
+        font-size: 1.1rem;
+        color: #1b1b1b;
+        min-width: 100px;
+        border: 2px solid #ADBED2;
+        margin-right: 20px;
+    }
+    &.button {
+        flex-direction: row;
+        align-items: flex-end;
+    }
+    .primary-btn {
+        background: #2A7DDD;
+        color: white;
+    }
+    .reset-btn {
+        background: #F7F8FA;
+        &:hover {
+            background: #F7F8FA;
+        }
+    }
+
+    .primary-btn,
+    .reset-btn {
+        border-radius: 5px;
+        padding: 10px 20px;
+        cursor: pointer;
+
+    }
+}
