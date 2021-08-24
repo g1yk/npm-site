@@ -1,0 +1,52 @@
+
+
+body {
+
+}
+
+
+/* .main {
+    max-width: 1140px;
+    min-width: 200px;
+    width: 96%;
+    margin: 40px 2% 0 45px;
+} */
+
+.label {
+    font-size: 13px;
+    font-family: Roboto, Helvetica, sans-serif;
+}
+
+#helper {
+    font-size: 13px;
+    font-family: Roboto, Helvetica, sans-serif;
+    color: #777777;
+    font-weight: bold;
+}
+
+.searchBar .inputSearch {
+    width: 100%;
+}
+
+
+
+.hints {
+    font-size: 11px;
+    font-family: Roboto, Helvetica, sans-serif;
+    float: left;
+    display: inline-block;
+    width: 32%;
+    min-width: 160px;
+    margin: 0 0 8px 1%;
+    color: #555;
+    font-size: 11px;
+    padding-left: 5px;
+    vertical-align: middle;
+    position: relative;
+}
+
+
+.hints .monospace {
+    font-size: 11px;
+    font-family: monospace, Helvetica, sans-serif;
+}

@@ -1,0 +1,13 @@
+.searchBox .search {
+
+    position: relative;
+    bottom: 4px;
+    left: 4px;
+    border: 1px black;
+}
+
+
+.search-icon {
+    position: relative;
+    bottom: 5px;
+}
